@@ -26,7 +26,6 @@ dist-ssr
 # Yarn Berry
 .yarn/cache
 .yarn/unplugged
-.yarn/releases
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
