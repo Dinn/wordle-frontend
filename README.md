@@ -1,11 +1,19 @@
-# React + TypeScript + Vite
+## 서버 시작 가이드
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```sh
+yarn install
+yarn dlx @yarnpkg/sdks vscode
+```
 
-Currently, two official plugins are available:
+vscode에서
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. ctrl + shift + p
+2. TypeScript: Select TypeScript Version
+3. Use Workspace Version
+
+```sh
+yarn dev
+```
 
 ## Expanding the ESLint configuration
 
