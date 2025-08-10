@@ -1,7 +1,67 @@
 @import 'tailwindcss';
 
-/* 컬러 팔레트 */
+/* Wordle 게임 컬러 팔레트 */
 @theme {
+  /* Primary Colors - 정답 표시 */
+  --color-primary-50: #f0f9f0;
+  --color-primary-100: #dcf2dc;
+  --color-primary-200: #bde5bd;
+  --color-primary-300: #91d491;
+  --color-primary-400: #6aaa64;
+  --color-primary-500: #538d4e;
+  --color-primary-600: #3a6b3a;
+  --color-primary-700: #2f542f;
+  --color-primary-800: #294329;
+  --color-primary-900: #243824;
+
+  /* Secondary Colors - 부분정답 표시 */
+  --color-secondary-50: #fefbf0;
+  --color-secondary-100: #fdf4d9;
+  --color-secondary-200: #fbe9b3;
+  --color-secondary-300: #f7d982;
+  --color-secondary-400: #c9b458;
+  --color-secondary-500: #b59f3b;
+  --color-secondary-600: #9d8030;
+  --color-secondary-700: #80622a;
+  --color-secondary-800: #6b5028;
+  --color-secondary-900: #5c4226;
+
+  /* Warning Colors - 경고 메시지 */
+  --color-warning-50: #fffbeb;
+  --color-warning-100: #fef3c7;
+  --color-warning-200: #fde68a;
+  --color-warning-300: #fcd34d;
+  --color-warning-400: #fbbf24;
+  --color-warning-500: #f59e0b;
+  --color-warning-600: #d97706;
+  --color-warning-700: #b45309;
+  --color-warning-800: #92400e;
+  --color-warning-900: #78350f;
+
+  /* Error Colors - 오답 표시 및 오류 */
+  --color-error-50: #fef2f2;
+  --color-error-100: #fee2e2;
+  --color-error-200: #fecaca;
+  --color-error-300: #fca5a5;
+  --color-error-400: #f87171;
+  --color-error-500: #ef4444;
+  --color-error-600: #dc2626;
+  --color-error-700: #b91c1c;
+  --color-error-800: #991b1b;
+  --color-error-900: #7f1d1d;
+
+  /* Neutral Colors - Wordle 스타일 회색 팔레트 */
+  --color-neutral-50: #f8f9fa;
+  --color-neutral-100: #e9ecef;
+  --color-neutral-200: #d3d6da;
+  --color-neutral-300: #adb5bd;
+  --color-neutral-400: #878a8c;
+  --color-neutral-500: #787c7e;
+  --color-neutral-600: #565758;
+  --color-neutral-700: #3a3a3c;
+  --color-neutral-800: #2e2e30;
+  --color-neutral-900: #121213;
+
   /* Game Specific Colors - 게임 전용 색상 */
   --color-correct: #6aaa64; /* 정답 */
   --color-present: #c9b458; /* 부분정답 */
