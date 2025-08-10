@@ -1,9 +1,13 @@
+import { Header } from './components/Header'
+import { Keyboard } from './components/Keyboard'
+import { WordBoard } from './components/WordBoard'
+
 function App() {
   return (
     <>
-      <div className="bg-red-500">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </div>
+      <Header />
+      <WordBoard />
+      <Keyboard />
     </>
   )
 }
