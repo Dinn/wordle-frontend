@@ -1,13 +1,14 @@
 @import 'tailwindcss';
 
-/* 컬러 팔레트 */
+/* Wordle 게임 컬러 팔레트 */
 @theme {
   /* Game Specific Colors - 게임 전용 색상 */
   --color-correct: #6aaa64; /* 정답 */
   --color-present: #c9b458; /* 부분정답 */
   --color-absent: #787c7e; /* 오답 */
   --color-keyboard: #d3d6da; /* 키보드 기본 */
-  --color-keyboard-dark: #818384; /* 키보드 다크 */
+  --color-keyboard-soft-dark: #adb5bd; /* 키보드 기본 */
+  --color-keyboard-deep-dark: #818384; /* 키보드 다크 */
 
   /* Background Colors */
   --color-bg-light: #ffffff;
