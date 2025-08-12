@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+/* Wordle 게임 컬러 팔레트 */
+@theme {
+  /* Game Specific Colors - 게임 전용 색상 */
+  --color-correct: #6aaa64; /* 정답 */
+  --color-present: #c9b458; /* 부분정답 */
+  --color-absent: #787c7e; /* 오답 */
+  --color-keyboard: #d3d6da; /* 키보드 기본 */
+  --color-keyboard-soft-dark: #adb5bd; /* 키보드 기본 */
+  --color-keyboard-deep-dark: #818384; /* 키보드 다크 */
+
+  /* Background Colors */
+  --color-bg-light: #ffffff;
+  --color-bg-dark: #121213;
+  --color-bg-modal: #f6f7f8;
+
+  /* Accent Colors - 강조 색상 */
+  --color-accent-blue: #3b82f6;
+  --color-accent-purple: #8b5cf6;
+  --color-accent-pink: #ec4899;
+  --color-accent-indigo: #6366f1;
+
+  /* Success & Info */
+  --color-success: #10b981;
+  --color-info: #06b6d4;
+}
